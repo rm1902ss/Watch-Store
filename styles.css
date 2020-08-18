@@ -109,6 +109,8 @@ html, body {
 .main-footer-container ul {
     flex-grow: 1;
     text-align: end;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .footer-nav li {
@@ -340,4 +342,26 @@ html, body {
     display: block;
     margin: 40px auto 80px auto;
     font-size: 1.2em;
+}
+
+@media (max-width: 460px) {
+    .main-nav {
+        font-size: 1em;
+    }
+
+    .section-header {
+        font-size: 1.5em;
+    }
+
+    .company-name {
+        font-size: 1.5em;
+    }
+
+    .company-name-large {
+        font-size: 5em;
+    }
+
+    .footer-nav li {
+        padding: 0;
+    }
 }
