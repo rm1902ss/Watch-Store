@@ -364,4 +364,26 @@ html, body {
     .footer-nav li {
         padding: 0;
     }
+    .cart-column {
+        margin-right: 0;
+    }
+    .cart-item {
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 40%;
+    }
+    .cart-price {
+        width: 35%;
+    }
+    .cart-item-title {
+        margin-left: 0;
+    }
+    .cart-quantity {
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 25%;
+    }
+    .cart-quantity-input {
+        margin-right: 0;
+    }
 }
