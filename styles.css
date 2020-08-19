@@ -52,7 +52,7 @@ body {
 }
 
 .nav a:hover {
-    background-color: rgba(255, 255, 255, .3);
+    background-color: #778DA9;
 }
 
 .main-header {
@@ -74,6 +74,7 @@ body {
 }
 
 .company-name-large {
+    padding-top: 2rem;
     font-size: 5em;
 }
 
@@ -105,7 +106,7 @@ body {
 }
 
 .main-footer {
-    background-color: #FE4A49;
+    background-color: #415A77;
     color: white;
     padding: .25em 0;
     flex-shrink: 0;
@@ -174,14 +175,14 @@ body {
 
 .btn-primary {
     color: white;
-    background-color: #FED766;
+    background-color: #778DA9;
     border: none;
     border-radius: .3em;
     font-weight: bold;
 }
 
 .btn-primary:hover {
-    background-color: #FEC10B;
+    background-color: #1B263B;
 }
 
 .shop-item {
@@ -266,7 +267,7 @@ body {
 
 .btn-danger {
     color: white;
-    background-color: #eb5757;
+    background-color: #FE4A49;
     border: none;
     border-radius: .3em;
     font-weight: bold;
@@ -280,7 +281,7 @@ body {
     height: 34px;
     width: 50px;
     border-radius: 5px;
-    border: 1px solid #56ccf2;
+    border: 1px solid #FE4A49;
     background-color: #eee;
     color: #333;
     padding: 0;
