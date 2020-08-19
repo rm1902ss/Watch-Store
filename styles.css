@@ -17,6 +17,12 @@
 html, body {
     margin: 0;
     padding: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
 }
 
 .nav ul {
@@ -55,6 +61,7 @@ html, body {
     background-blend-mode: multiply;
     background-size: cover;
     padding-bottom: 30px;
+    flex: 1 0 auto;
 }
 
 .company-name {
@@ -74,10 +81,12 @@ html, body {
     margin: 1em;
 }
 
+
 .container {
     max-width: 900px;
     margin: 0 auto;
     padding: 0 1.5em;
+    flex: 1 0 auto;
 }
 
 .section-header {
@@ -99,6 +108,7 @@ html, body {
     background-color: #56CCF2;
     color: white;
     padding: .25em 0;
+    flex-shrink: 0;
 }
 
 .main-footer-container {
@@ -353,6 +363,10 @@ html, body {
         padding-inline-start: 0;
     }
 
+    .container {
+        margin: 0;
+    }
+
     .section-header {
         font-size: 1.5em;
     }
@@ -368,26 +382,32 @@ html, body {
     .footer-nav li {
         padding: 0;
     }
+
     .cart-column {
         margin-right: 0;
     }
+
     .cart-item {
         flex-direction: column;
         justify-content: space-evenly;
         align-items: flex-start;
         width: 40%;
     }
+
     .cart-price {
         width: 35%;
     }
+
     .cart-item-title {
         margin-left: 0;
     }
+
     .cart-quantity {
         flex-direction: column;
         justify-content: space-evenly;
         width: 25%;
     }
+
     .cart-quantity-input {
         margin-right: 0;
     }
