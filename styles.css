@@ -383,4 +383,16 @@ body {
     .cart-quantity-input {
         margin-right: 0;
     }
+
+    .brand {
+        padding-right: 0;
+    }
+
+    .brand-model-1 {
+        width: 28%;
+    }
+
+    .brand-model-2 {
+        width: 30%;
+    }
 }
