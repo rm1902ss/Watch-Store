@@ -127,9 +127,9 @@ body {
     padding: 0 .5em;
 }
 
-.footer-nav img {
-    width: 30px;
-    height: 30px;
+.fab {
+    color: white;
+   font-size: 2rem;
 }
 
 .btn {
